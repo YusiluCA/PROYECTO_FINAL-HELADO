@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabores - Delicias Heladas</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="../img/Made with insMind-Delicia Helada (1).png" />
+</head>
+
+<body>
+  <header class="encabezado">
+    <div class="logo-con-texto">
+      <img src="../img/Made with insMind-Delicia Helada (1).png" alt="Logo Delicias Heladas" class="logo" />
+      <h1 class="titulo">Delicias Heladas</h1>
+    </div>
+    <nav class="navegacion">
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="sabores.html">Sabores</a></li>
+        <li><a href="promociones.html">Promociones</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion-sabores">
+      <h2>Nuestros Sabores</h2>
+      <div class="grid-sabores">
+
+        <!-- 1 -->
+        <!-- Helado de Fresa con Receta -->
+<div class="sabor">
+  <img src="../img/fresa 1.jpg" alt="Helado de Fresa">
+  <h3>Fresa</h3>
+  <p>Hecho con fresas naturales y crema fresca.</p>
+  <button onclick="toggleReceta('receta-fresa')">Ver receta</button>
+
+  <div id="receta-fresa" class="receta" style="display: none;">
+    <h4>🍓 Helado de Fresa Casero</h4>
+    <p><strong>Ingredientes:</strong></p>
+    <ul>
+      <li>2 tazas de fresas</li>
+      <li>1 taza de crema de leche</li>
+      <li>1/2 taza de leche condensada</li>
+      <li>1 cdita de vainilla</li>
+    </ul>
+    <p><strong>Preparación:</strong></p>
+    <ol>
+      <li>Licúa todo hasta que quede suave.</li>
+      <li>Congela por 4 horas, removiendo cada 30 minutos.</li>
+      <li>Sírvelo frío y ¡disfruta!</li>
+    </ol>
+  </div>
+</div>
+
+
+        <!-- 2 -->
+        <!-- Helado de Vainilla con Receta -->
+<div class="sabor">
+  <img src="../img/vainilla 2.jpg" alt="Helado de Vainilla">
+  <h3>Vainilla</h3>
+  <p>Clásico sabor suave con extracto natural de vainilla.</p>
+  <button onclick="toggleReceta('receta-vainilla')">Ver receta</button>
+
+  <div id="receta-vainilla" class="receta" style="display: none;">
+    <h4>🍦 Helado de Vainilla Casero</h4>
+    <p><strong>Ingredientes:</strong></p>
+    <ul>
+      <li>400 ml de crema de leche</li>
+      <li>250 ml de leche entera</li>
+      <li>150 g de azúcar</li>
+      <li>1 cda de esencia de vainilla</li>
+    </ul>
+    <p><strong>Preparación:</strong></p>
+    <ol>
+      <li>Mezcla todos los ingredientes.</li>
+      <li>Refrigera 2 h y luego congela, removiendo cada 30 min por 3 h.</li>
+      <li>Congela 4–6 h más y sirve frío.</li>
+    </ol>
+  </div>
+</div>
+
+
+
+
+        <!-- 3 -->
+        <div class="sabor">
+  <img src="../img/chocolate3.jpg" alt="Helado de Chocolate">
+  <h3>Chocolate</h3>
+  <p>Chocolate intenso elaborado con cacao peruano.</p>
+  <button onclick="toggleReceta('receta-chocolate')">Ver receta</button>
+  <div id="receta-chocolate" class="receta" style="display: none;">
+    <h4>🍫 Helado Casero de Chocolate</h4>
+    <ul>
+      <li>400 ml de crema de leche</li>
+      <li>200 ml de leche entera</li>
+      <li>150 g de chocolate negro (70% cacao)</li>
+      <li>100 g de azúcar</li>
+      <li>1 cucharadita de vainilla</li>
+    </ul>
+    <ol>
+      <li>Derrite el chocolate con la leche a fuego lento.</li>
+      <li>Añade el azúcar y la vainilla. Mezcla bien.</li>
+      <li>Enfría y añade la crema. Bate y congela.</li>
+    </ol>
+  </div>
+</div>
+
+        <!-- 4 -->
+        <div class="sabor">
+  <img src="../img/mango4.webp" alt="Helado de Mango">
+  <h3>Mango</h3>
+  <p>Exótico, tropical y refrescante, ideal para el verano.</p>
+  <button onclick="toggleReceta('receta-mango')">Ver receta</button>
+  <div id="receta-mango" class="receta" style="display: none;">
+    <h4>🥭 Helado Casero de Mango</h4>
+    <ul>
+      <li>2 mangos maduros</li>
+      <li>200 ml de crema de leche</li>
+      <li>100 ml de leche condensada</li>
+      <li>Jugo de medio limón</li>
+    </ul>
+    <ol>
+      <li>Licúa los mangos con limón.</li>
+      <li>Agrega crema y leche condensada. Mezcla.</li>
+      <li>Congela por 4-6 horas removiendo cada hora.</li>
+    </ol>
+  </div>
+</div>
+
+        <!-- 5 -->
+        <div class="sabor">
+  <img src="../img/menta5.jpg" alt="Helado de Menta">
+  <h3>Menta</h3>
+  <p>Refrescante, con un toque de chocolate.</p>
+  <button onclick="toggleReceta('receta-menta')">Ver receta</button>
+  <div id="receta-menta" class="receta" style="display: none;">
+    <h4>🌿 Helado Casero de Menta</h4>
+    <ul>
+      <li>300 ml de crema de leche</li>
+      <li>200 ml de leche</li>
+      <li>100 g de azúcar</li>
+      <li>1 cdita de extracto de menta</li>
+      <li>Chispas de chocolate (opcional)</li>
+    </ul>
+    <ol>
+      <li>Mezcla los ingredientes y refrigera 2 h.</li>
+      <li>Congela batiendo cada 30 min. por 3 h.</li>
+    </ol>
+  </div>
+</div>
+
+        <!-- 6 -->
+        <div class="sabor">
+  <img src="../img/maracuya6.jpg" alt="Helado de Maracuyá">
+  <h3>Maracuyá</h3>
+  <p>Ácido y dulce, preparado con fruta fresca.</p>
+  <button onclick="toggleReceta('receta-maracuya')">Ver receta</button>
+  <div id="receta-maracuya" class="receta" style="display: none;">
+    <h4>🟡 Helado Casero de Maracuyá</h4>
+    <ul>
+      <li>1 taza de pulpa de maracuyá</li>
+      <li>200 ml de crema de leche</li>
+      <li>150 ml de leche condensada</li>
+      <li>2 cdas de azúcar</li>
+    </ul>
+    <ol>
+      <li>Licúa todo. Prueba el dulzor.</li>
+      <li>Congela 4–6 h removiendo cada hora.</li>
+    </ol>
+  </div>
+</div>
+
+        <!-- 7 -->
+        <div class="sabor">
+  <img src="../img/lucuma7.jpg" alt="Helado de Lúcuma">
+  <h3>Lúcuma</h3>
+  <p>Delicia peruana de textura cremosa y sabor único.</p>
+  <button onclick="toggleReceta('receta-lucuma')">Ver receta</button>
+  <div id="receta-lucuma" class="receta" style="display: none;">
+    <h4>🟠 Helado Casero de Lúcuma</h4>
+    <ul>
+      <li>1 taza de puré de lúcuma</li>
+      <li>200 ml de crema de leche</li>
+      <li>100 ml de leche evaporada</li>
+      <li>100 g de azúcar</li>
+    </ul>
+    <ol>
+      <li>Mezcla todos los ingredientes.</li>
+      <li>Congela 4 h, batiendo cada 30 min.</li>
+    </ol>
+  </div>
+</div>
+
+        <!-- 8 -->
+        <div class="sabor">
+  <img src="../img/cafe8.1.jpg" alt="Helado de Café">
+  <h3>Café</h3>
+  <p>Con café tostado artesanalmente para un sabor fuerte.</p>
+  <button onclick="toggleReceta('receta-cafe')">Ver receta</button>
+  <div id="receta-cafe" class="receta" style="display: none;">
+    <h4>☕ Helado Casero de Café</h4>
+    <ul>
+      <li>2 cdas de café instantáneo o 1 taza fuerte</li>
+      <li>200 ml de crema de leche</li>
+      <li>150 ml de leche condensada</li>
+      <li>1 cdita de vainilla</li>
+    </ul>
+    <ol>
+      <li>Disuelve el café, mezcla con los demás.</li>
+      <li>Congela removiendo 3 h cada 30 min.</li>
+    </ol>
+  </div>
+</div>
+
+        <!-- 9 -->
+        <div class="sabor">
+  <img src="../img/coco9.webp" alt="Helado de Coco">
+  <h3>Coco</h3>
+  <p>Hecho con coco rallado natural y leche cremosa.</p>
+  <button onclick="toggleReceta('receta-coco')">Ver receta</button>
+  <div id="receta-coco" class="receta" style="display: none;">
+    <h4>🥥 Helado Casero de Coco</h4>
+    <ul>
+      <li>1 taza de leche de coco</li>
+      <li>200 ml de crema de leche</li>
+      <li>1/2 taza de coco rallado</li>
+      <li>100 g de azúcar</li>
+    </ul>
+    <ol>
+      <li>Mezcla bien todos los ingredientes.</li>
+      <li>Congela removiendo cada 30 min.</li>
+    </ol>
+  </div>
+</div>
+
+        <!-- 10 -->
+        <div class="sabor">
+  <img src="../img/Oreo10.jpg" alt="Helado de Oreo">
+  <h3>Cookies & Cream</h3>
+  <p>Con galletas trituradas y base de vainilla cremosa.</p>
+  <button onclick="toggleReceta('receta-cookies')">Ver receta</button>
+  <div id="receta-cookies" class="receta" style="display: none;">
+    <h4>🍪 Helado Casero de Cookies & Cream</h4>
+    <ul>
+      <li>10 galletas Oreo trituradas</li>
+      <li>250 ml de crema de leche</li>
+      <li>150 ml de leche condensada</li>
+      <li>1 cdita de vainilla</li>
+    </ul>
+    <ol>
+      <li>Mezcla todo con cuidado.</li>
+      <li>Congela 4 h removiendo cada hora.</li>
+    </ol>
+  </div>
+</div>
+        <!-- 11 -->
+        <div class="sabor">
+  <img src="../img/fresa y vanilla10.webp" alt="Fresa y Vainilla">
+  <h3>Fresa & Vainilla</h3>
+  <p>Un clásico delicioso, suave y frutal. Perfecto para todos los gustos.</p>
+  <button onclick="toggleReceta('receta-fresavainilla')">Ver receta</button>
+  <div id="receta-fresavainilla" class="receta" style="display: none;">
+    <h4>🍓🍦 Helado Casero de Fresa & Vainilla</h4>
+    <ul>
+      <li>1 taza de fresas trituradas</li>
+      <li>1 taza de mezcla base de vainilla</li>
+      <li>200 ml de crema de leche</li>
+    </ul>
+    <ol>
+      <li>Une los sabores o congela por separado y sirve juntos.</li>
+      <li>Remueve cada 30 min por 3 h, congela 4 h más.</li>
+    </ol>
+  </div>
+</div>
+        <!-- 12 -->
+        <div class="sabor">
+  <img src="../img/3sabores11.jpg" alt="Chocolate y Menta">
+  <h3>Mixto</h3>
+  <p>Fresco y cremoso, ideal para los que buscan algo diferente.</p>
+  <button onclick="toggleReceta('receta-mixto')">Ver receta</button>
+  <div id="receta-mixto" class="receta" style="display: none;">
+    <h4>🎨 Helado Mixto (Tres sabores)</h4>
+    <ul>
+      <li>1/2 taza de helado de vainilla (base)</li>
+      <li>1/2 taza de puré de fruta (fresa, mango...)</li>
+      <li>1/2 taza de chocolate fundido o rallado</li>
+    </ul>
+    <ol>
+      <li>Combina o intercala los sabores.</li>
+      <li>Congela en capas o mezclado. ¡Diviértete!</li>
+    </ol>
+  </div>
+</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-contenido">
+      <p>📍 Av. Principal 123, Ciudad Dulce · 📞 +51 999 888 777 · ✉️ contacto@deliciasheladas.com</p>
+      <p>
+        Síguenos en:
+        <a href="#" target="_blank">🌐 Facebook</a> |
+        <a href="#" target="_blank">📸 Instagram</a> |
+        <a href="#" target="_blank">🐦 Twitter</a>
+        · &copy; 2025 Delicias Heladas
+      </p>
+    </div>
+  </footer>
+  <script>
+  function toggleReceta(id) {
+    const receta = document.getElementById(id);
+    receta.style.display = receta.style.display === 'none' ? 'block' : 'none';
+  }
+</script>
+</body>
+</html>
